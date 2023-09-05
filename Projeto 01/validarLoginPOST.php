@@ -18,12 +18,15 @@
             // Obter dados do formulário
             $email = $_POST["email"];
             $senha = $_POST["senha"];
+
             echo "<p>E-mail informado: $email <br> Senha informada: $senha</p>";
-            }
+        }
+
         else {
             echo "<p>E-mail/Senha inválidos! Tente novamente.</p>";
-            }
-        ?>
+        }
+
+        echo "<a href='index.php'>Voltar ao Menu</a>";
     ?>
 </body>
 </html>
