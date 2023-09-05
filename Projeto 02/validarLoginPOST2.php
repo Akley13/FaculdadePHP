@@ -8,7 +8,7 @@
 <body>
 <h1>
         <?php
-            echo "Menu e Variáveis PHP<br>";
+            echo "Menu e Variáveis PHP<hr>";
         ?>
     </h1>
 
@@ -20,7 +20,7 @@
             $senha = $_POST["senha"];
 
             if(empty($email) || empty($senha)){
-                echo "E-mail e senha são obrigatórios.";
+                echo "E-mail e senha são campos obrigatórios. <br> <br>";
             } else {
                 echo "<p>E-mail informado: $email <br> Senha informada: $senha</p>";
             }
