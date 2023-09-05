@@ -19,7 +19,11 @@
             $email = $_POST["email"];
             $senha = $_POST["senha"];
 
-            echo "<p>E-mail informado: $email <br> Senha informada: $senha</p>";
+            if(empty($email) || empty($senha)){
+                echo "E-mail e senha são obrigatórios.";
+            } else {
+                echo "<p>E-mail informado: $email <br> Senha informada: $senha</p>";
+            }
         }
 
         else {
