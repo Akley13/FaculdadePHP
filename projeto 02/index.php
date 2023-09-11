@@ -16,8 +16,8 @@
     <p>
         <?php
         echo "<a href='index.php'>Principal | </a>";
-        echo "<a href='login.php'>Login | </a>";
         echo "<a href='cadastro.php'>Cadastro | </a>";
+        echo "<a href='login.php'>Login | </a>";
         echo "<a href='sair.php'>Sair</a>";
         ?>
     </p>
