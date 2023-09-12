@@ -25,7 +25,7 @@
             $genero = $_POST["genero"];
             $uf = $_POST["uf"];
             $bancoDados = $_POST["bancoDados"];
-             echo "<p>Dados recebidos com sucesso!</p>";
+            echo "<p>Dados recebidos com sucesso!</p>";
             echo "<p>Nome: $nome</p>";
             echo "<p>Email: $email</p>";
             echo "<p>Senha: $senha</p>";
@@ -37,5 +37,5 @@
             echo "<p>Dados para Cadastro obrigatórios! Tente novamente.</p>";
             }
     ?>
-    
+
 </body>
